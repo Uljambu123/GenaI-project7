@@ -80,11 +80,11 @@ The goal of this project is to build an interactive AI assistant that can:
 - Set up environment variables:
 echo "HF_TOKEN=your_huggingface_api_key" > .env
 
-- Running the Application
+## Running the Application
 Start the Streamlit app:
-streamlit run Conversational_RAG.py
+- streamlit run Conversational_RAG.py
 
-Enter the Groq API Key in the input box.
-Upload a PDF file.
-Enter your query in the chat input field.
+- Enter the Groq API Key in the input box.
+- Upload a PDF file.
+- Enter your query in the chat input field.
 The assistant will respond with relevant information extracted from the document.
